@@ -1,0 +1,13 @@
+{
+  "name": "oa00thwebclient",
+  "version": "1.0.0",
+  "description": "oa00th server Javascript wrapper",
+  "main": "index.js",
+  "author": "Alessandro Pettenuzzo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "js-cookie": "^2.2.0",
+    "qs": "^6.5.1"
+  }
+}
