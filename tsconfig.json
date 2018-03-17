@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "module": "es6",
+    "target": "es5",
+    "sourceMap": true,
+    "allowJs": false,
+    "moduleResolution": "node",
+    "lib": ["es2015.promise", "es5", "dom"],
+    "outDir": "./"
+  },
+  "files": [
+    "./src/index.ts"
+  ]
+}
