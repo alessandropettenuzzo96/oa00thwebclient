@@ -5,9 +5,13 @@
   "main": "index.js",
   "author": "Alessandro Pettenuzzo",
   "license": "ISC",
+  "scripts": {
+    "deploy": "tsc && git add . && git commit -m \"\" --allow-empty-message && git push origin master"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "js-cookie": "^2.2.0",
-    "qs": "^6.5.1"
+    "qs": "^6.5.1",
+    "typescript": "^2.7.2"
   }
 }
